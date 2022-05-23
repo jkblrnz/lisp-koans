@@ -58,8 +58,7 @@
 ;;; either true or false.
 
 (define-test a-true-assertion
-  (assert-true (= ____ (+ 2 2))))
+  (assert-true (= 4 (+ 2 2))))
 
 (define-test a-false-assertion
-  (assert-false (= ____ (+ 2 2))))
-
+  (assert-false (= 5 (+ 2 2))))
