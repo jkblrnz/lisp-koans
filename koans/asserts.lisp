@@ -30,7 +30,7 @@
 (define-test fill-in-the-blanks
   (assert-equal 2 2)
   (assert-equal 3.14 3.14)
-  (assert-equal ____ "Hello World"))
+  (assert-equal "Hello World" "Hello World"))
 
 ;;; Sometimes, you will be asked to say whether something is true or false,
 ;;; In Common Lisp, the canonical values for truth and falsehood are T and NIL.
