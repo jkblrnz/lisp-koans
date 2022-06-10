@@ -30,7 +30,7 @@
 (define-test make-struct
   (let ((player (make-basketball-player :name "Larry" :team :celtics
                                         :number 33)))
-    (true-or-false? ____ (basketball-player-p player))
+    (true-or-false? t (basketball-player-p player))
     (assert-equal ____ (basketball-player-name player))
     (assert-equal ____ (basketball-player-team player))
     (assert-equal ____ (basketball-player-number player))
